@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando imagens de fundo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        *{
+            margin: 0;
+        }
+        body{background-image: url(imagens/wallpaper001.jpg);
+            
+            
+        }h1{
+            font-family: 'Bebas Neue', cursive;
+            text-align: center;
+            font-size: 4em;
+            color: aliceblue;
+        }h2{
+            font-family: 'Courier New', Courier, monospace; 
+           
+            font-size: 2em;
+            padding-left: 10px;
+        }
+        div.blocos{
+            background-color: rgb(133, 144, 146);
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            text-align: justify;
+            margin-top: 30px;
+            border-radius: 20px;
+            margin: auto;
+            box-shadow: 7px 5px 9px 0px black;
+            
+
+           
+        }div#b1:hover{
+            background-image: url('imagens/pattern001.png');
+        }div#b2:hover{
+            background-image: linear-gradient(to bottom, black, blue);
+        }div#b3:hover{
+            background-color: blueviolet;
+        }
+
+        
+    </style>
+</head>
+<body><h1>Tipos De background usados em sites</h1>
+    <h2>background-image:url('Colocar endereço da imagem')</h2>
+    <div class="blocos" id="b1"></div>
+    <h2>background-img:linear-gradient(to bottom, cor1, cor2, cor3)</h2>
+    <div class="blocos" id="b2"></div>
+     <h2>background-color(cor1)</h2>
+    <div class="blocos" id="b3"></div>
+    
+</body>
+</html>

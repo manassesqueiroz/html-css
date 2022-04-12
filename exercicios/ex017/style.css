@@ -1,0 +1,21 @@
+h1{
+    font-family: 'Courier New', Courier, monospace ;color: rgb(87, 180, 10);
+    font-size: 6em ;
+}.oi{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: aqua;
+    font-size: 2em ;
+}.opa{
+font-family: 'Times New Roman', Times, serif;
+font-size: 2em;
+color: blueviolet;
+  
+
+
+
+}p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 2em;
+}

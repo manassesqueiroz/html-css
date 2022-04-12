@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+  font-family: spider man;
+  src: url("font/The\ Amazing\ Spider-Man.ttf") format("truetype");
+}
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  font-family: spider man;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
+  color: rgb(255, 0, 0);
+}
+h2 {
+  font-family: "Franklin Gothic Medium", " Narrow", sans-serif;
+}
+
+#tobey {
+  background-color: rgb(9, 75, 105);
+}
+#tom {
+  background-color: aqua;
+}
+#andrew {
+  background-color: rgb(74, 13, 243);
+}

@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div > p {
+  display: none;
+}
+div:hover > p {
+  display: block;
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  box-shadow: rgb(187, 185, 185) 2px 3px 1px;
+  border-radius: 5px;
+}
+div:hover {
+  color: rgb(38, 2, 240);
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(36, 190, 62);
+}
