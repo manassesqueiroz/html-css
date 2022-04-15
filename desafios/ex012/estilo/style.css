@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'Passion One', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -7,11 +14,14 @@ html,
 body {
   min-height: 100vh;
   background-color: darkgrey;
+  font-family: var(--fonte1);
 }
 header {
   background-color: black;
   color: white;
   text-align: center;
+  font-family: var(--fonte2);
+  font-size: 3vw;
 }
 
 header >h1 {
@@ -25,6 +35,8 @@ header >p {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 40px;
+    font-family: var(--fonte3);
+    font-size: 3.3vw;
     
     
 }section.imagem{
@@ -33,14 +45,15 @@ header >p {
 
 
 }.imagem > p{
-    background-color: rgba(0, 0, 0, 0.527);
-    width: 400px;
+    display:inline-block ;
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 10px;
+    border-radius: 10px;
 }
 section.normal{
-    background-color: white; 
-    color: black;
-
+background-color: white;
 }
+
 footer  a, header  a{
     text-decoration: none;
     color: white;
@@ -55,4 +68,6 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 2.2vw;
+    font-family: var(--fonte2);
 }
