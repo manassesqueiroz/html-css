@@ -40,8 +40,14 @@ header >p {
     
     
 }section.imagem{
+  
     background-color: rgb(43, 40, 40);
     color: white;
+    background-position: center  ;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
+    background-attachment: fixed;
+    background-size: cover;
+   
 
 
 }.imagem > p{
@@ -52,6 +58,15 @@ header >p {
 }
 section.normal{
 background-color: white;
+}section >p{
+  padding-bottom: 2em;
+}
+section#imagem1{ 
+  background-image: url('../imagens/background001.jpg');
+
+}section#imagem2{
+  background-image: url('../imagens/background002.jpg');
+
 }
 
 footer  a, header  a{
