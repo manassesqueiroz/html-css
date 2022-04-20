@@ -10,6 +10,18 @@
       }
       table {
         border-collapse: collapse;
+        margin: auto;
+      }
+      caption {
+        font-size: 3em;
+        font-family: monospace;
+        background-color: rgb(172, 161, 161);
+      }
+      tbody tr:nth-child(odd) {
+        background-color: rgb(145, 142, 142);
+      }
+      tbody tr:nth-child(even) {
+        background-color: aqua;
       }
       th {
         border: 2px solid black;
@@ -22,22 +34,24 @@
         border: 1px solid black;
         padding: 5px;
         font-size: 1.5em;
-      }h2{
-          text-align: center;
       }
-        
-      
+      .tfood {
+        font-size: 1.4em;
+      }
     </style>
     <title>Tabelas Grandes</title>
   </head>
   <body>
     <h1>Tabelas</h1>
     <table>
+      <caption>
+        Estados Do Brasil
+      </caption>
       <thead>
-        <th>ESTADO</th>
-        <th>SIGLA</th>
-        <th>CAPITAL</th>
-        <th>REGIÃO</th>
+        <th scope="col">ESTADO</th>
+        <th scope="col" style="width: 100px">SIGLA</th>
+        <th scope="col">CAPITAL</th>
+        <th scope="col">REGIÃO</th>
       </thead>
       <tbody>
         <tr>
@@ -196,9 +210,14 @@
           <td>Porto Alegre</td>
           <td>Sul</td>
         </tr>
-        
+      </tbody>
+
+      <tfoot>
+        <th class="tfood" scope="row">ESTADOS</th>
+        <td class="tfood">26</td>
+        <th class="tfood" scope="row">DISTRITO FEDERAL</th>
+        <td class="tfood">1</td>
       </tfoot>
     </table>
-    <h2>26 ESTADOS E O DISTRITO FEDERAL</h2>
   </body>
 </html>
