@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicios de Agrupamento de colunas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }caption{
+          font-size: 2em;
+          background-color: rgb(136, 133, 133);
+
+      }
+      table {
+        border-collapse: collapse;
+        margin: auto;
+        
+      }
+      td {
+        border: 1px solid black;
+        padding: 5px;
+        width: 200px;
+        height: 0px;
+        font-size: 1.2em;
+        text-align: center;
+
+      }
+      th{
+        width: 200px;
+        height: 40px;
+        border: 1px solid black;
+        padding: 5px;
+        font-size: 1.4em;
+        
+      }.verdadeira{
+          background-color: aqua;
+      }
+      .falsa{
+          background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+        <colgroup>
+        <col class="verdadeira">
+        <col class="falsa">
+        <col class="falsa">
+        <col class="verdadeira"> 
+        
+       </colgroup>
+        <caption>Tabela de Preços</caption>
+        <tr>
+            <th scope="col">Carro</th>
+            <th scope="col">Ano de Lansamento</th>
+            <th scope="col">Cor</th>
+            <th scope="col">Preço</th>
+        </tr>
+        <tr>
+            <td>Mustang</td>
+            <td>2014</td>
+            <td>preto</td>
+            <td>290.000$</td>
+        </tr>
+        <tr>
+            <td>Camaro</td>
+            <td>2010</td>
+            <td>amarelo</td>
+            <td>200.000$</td>
+        </tr>
+        <tr>
+            <td>Corvet</td>
+            <td>2019</td>
+            <td>marrom</td>
+            <td>398.000$</td>
+        </tr>
+        <tr>
+            <td>Model S</td>
+            <td>2022</td>
+            <td>vermelho</td>
+            <td>1.230.000$</td>
+        </tr>
+        <tr>
+            <td>S10</td>
+            <td>2019</td>
+            <td>branca</td>
+            <td>240.000$</td>
+        </tr>
+        <tr>
+            <td>Fusca Tunado</td>
+            <td>1960</td>
+            <td>verde</td>
+            <td>300.900$</td>
+        </tr>
+        <tr>
+            <td>Uno/eletricista</td>
+            <td>2000</td>
+            <td>prata</td>
+            <td>9.999.999.999....$</td>
+        </tr>
+    </table>
+  </body>
+</html>
